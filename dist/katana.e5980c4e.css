@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #111312;
+  overflow: hidden;
+}
+
+.canvas {
+  z-index: 3;
+  outline: none;
+  width: 1000px;
+  height: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hexagon {
+  z-index: 1;
+  filter: brightness(30%);
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  background-image: url("back.dd519982.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=katana.e5980c4e.css.map */

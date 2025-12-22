@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow: hidden;
+}
+
+.canvas {
+  background-color: #000;
+  background-image: url("back.dd519982.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  outline: none;
+  width: 1000px;
+  height: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=animation-model-threejs-main.e5980c4e.css.map */
